@@ -1,0 +1,109 @@
+.page-background {
+  background-color: hsl(216deg 12% 8%);
+}
+
+.box {
+  background-color: hsl(213deg 19% 18%);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.circle {
+  background-color: rgb(124 135 152 / 10%);
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: Overpass, sans-serif;
+}
+
+.heading {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.text {
+  color: hsl(217deg 12% 63%);
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.number-button {
+  border: none;
+  color: hsl(217deg 12% 63%);
+  font-size: 15px;
+}
+
+.selected {
+  background-color: hsl(25deg 97% 53%);
+  color: white;
+}
+
+.submit-button {
+  border: none;
+  background-color: hsl(25deg 97% 53%);
+  color: white;
+  border-radius: 25px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.number-button:hover {
+  background-color: hsl(217deg 12% 63%);
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: hsl(25deg 97% 53%);
+}
+
+/* Thank You Page */
+
+.text-align-center {
+  text-align: center;
+}
+
+.thank-you-image {
+  margin-bottom: 20px;
+}
+
+.selection-background {
+  display: flex;
+  width: 80%;
+  background-color: rgb(124 135 152 / 10%);
+  border-radius: 25px;
+  margin: auto;
+  justify-content: center;
+}
+
+.selection-text {
+  color: hsl(25deg 97% 53%);
+  margin: 5px 0;
+}
+
+/* Attribution */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg 45% 44%);
+}
