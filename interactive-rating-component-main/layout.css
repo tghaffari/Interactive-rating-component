@@ -1,0 +1,21 @@
+.container {
+  max-width: 575px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-fifth {
+  flex-basis: calc(100%/5);
+}
+
+.column-flex {
+  flex-basis: auto;
+}
