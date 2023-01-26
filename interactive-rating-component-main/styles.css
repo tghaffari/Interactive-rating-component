@@ -40,6 +40,11 @@ body {
   font-size: 15px;
 }
 
+.selected {
+  background-color: hsl(25deg 97% 53%);
+  color: white;
+}
+
 .submit-button {
   border: none;
   background-color: hsl(25deg 97% 53%);
@@ -65,4 +70,14 @@ body {
 
 button:hover {
   cursor: pointer;
+}
+
+.number-button:hover {
+  background-color: hsl(217deg 12% 63%);
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: hsl(25deg 97% 53%);
 }
